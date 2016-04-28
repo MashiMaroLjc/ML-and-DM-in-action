@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="{{url_for('static', 
+      filename='css/bootstrap.css')}}">
+
+	<title>gobang</title>
+	<style type="text/css">
+	body{
+		background: gray;
+	}
+	.container{
+		margin-top: 0%;
+		padding-left: 150px;
+	}
+
+	.mybtn{
+		margin-left:2%;
+		margin-top: -115%;
+		width:15%;
+	}
+	</style>
+
+</head>
+<body onload="drawRect()" > 
+	<div class="container">
+
+    <div id="info" style="font-size: 100%;color: white;margin-left:;">info:</div>
+	<canvas width="668" id="canvas" onmousedown="put(event)" height="668" >
+	You browser isn't support HTML5
+	</canvas>
+
+	<a href="javascript:void(0)" class="btn btn-lg btn-default mybtn" onclick="Reload()">Reload</a>
+    
+	</div>
+	
+</body>
+
+	  <script type="text/javascript" src="{{url_for('static', 
+      filename='js/jquery-2.2.0.min.js')}}"></script>
+	<script type="text/javascript">
+    //Initialize------------------------------------
+        var canvas;
+        var context;
+        //The status of the game
+        var isEnd = false
+        //Whether it's your turn to play chess
+        var turn = true
+        //-1 Initialize
+        //0 PEACE
+        //1 BLACK WIN
+        //2 WHITE WIN
+        var wincolor = -1
+        document.documentElement.style.overflow='hidden';
+        //BLACK chess image
+        var img_b = new Image();
+        img_b.src = "static/images/b.png";
+        //WHITE chess image
+        var img_w = new Image();
+        img_w.src = "static/images/w.png";
+        //The array on the bahalf of chessboard
+        //Number 1 mean BLACK chess
+        //Number 2 mean WHITE chess
+        //Number 0 mean empty
+        var SIZE = 19
+        var chess = new Array(SIZE)
+        for (var x = 0; x < SIZE; x++) {
+            chess[x] = new Array(SIZE);
+            for (var y = 0; y < SIZE; y++) {
+                chess[x][y] = 0;
+            }
+        }
+
+        //To check whether you  win the game 
+        var checkWin = function(){
+            var isEmpty = false
+            for(var i = 0;i<SIZE;i++){
+                for(var j = 0;j<SIZE;j++){
+                    if(chess[i][j] == 0){
+                        isEmpty = true
+                    }else{
+                        var color = chess[i][j]
+                        if(j < SIZE-4){
+                            if(color == chess[i][j+1]
+                            && color == chess[i][j+2]
+                            && color == chess[i][j+3]
+                            && color == chess[i][j+4]){
+                                return color
+                            }
+                        }
+
+                        if(i < SIZE-4){
+                            if(color == chess[i+1][j]
+                            && color == chess[i+2][j]
+                            && color == chess[i+3][j]
+                            && color == chess[i+4][j]){
+                                return color
+                            }
+                        }
+                       
+                        if(i < SIZE-4 && j < SIZE-4){
+                            if(color == chess[i+1][j+1]
+                            && color == chess[i+2][j+2]
+                            && color == chess[i+3][j+3]
+                            && color == chess[i+4][j+4]){
+                                return color
+                            }
+                        }
+
+                        if(i >=4 && j < SIZE-4){
+                            if(color == chess[i-1][j+1]
+                            && color == chess[i-2][j+2]
+                            && color == chess[i-3][j+3]
+                            && color == chess[i-4][j+4]){
+                                return color
+                            }
+                        }
+                        
+                        
+                    }
+                }
+            }
+            if(!isEmpty){
+                return 0
+            }
+        }
+
+        //Draw the chessboard when you load the page
+        var drawRect = function() {
+            canvas = document.getElementById("canvas");
+            context = canvas.getContext("2d");
+            var sumLine = 648
+            for (var i = 0; i <= sumLine; i += 36) {
+                context.beginPath();
+                context.moveTo(0, i);
+                context.lineTo(sumLine, i);
+                context.closePath();
+                context.stroke();
+ 
+                context.beginPath();
+                context.moveTo(i, 0);
+                context.lineTo(i, sumLine);
+                context.closePath();
+                context.stroke();
+            }
+        }
+
+        //Reloading the current page
+        var Reload = function(){
+        	document.location.reload();
+        }
+
+        var information = document.getElementById("info")
+        var put = function(event){
+            if(isEnd) return
+            var x = parseInt((event.screenX) / 36)-6; 
+            var y= parseInt((event.screenY ) / 36)-2;  
+            if(chess[y][x] == 0 && turn ){
+                context.drawImage(img_b, x*36-15 , y*36-15 );
+                turn = !turn
+                chess[y][x] = 1
+                wincolor = checkWin()
+                if(wincolor==0){
+                    information.innerHTML = "PEACE"
+                    isEnd = true
+                    return
+                }else if(wincolor == 1){
+                    information.innerHTML = "BLACK WIN!"
+                    isEnd = true
+                    return
+                }else if(wincolor == 2){
+                    information.innerHTML = "WHITE WIN!"
+                    isEnd = true
+                    return
+                }
+                var deal_with = function(responed){
+                    try{
+                        console.log(responed)
+                        var res = JSON.parse(responed)
+                        if(res.sta=="failed"){
+                            alert("failed!")
+                        }else{
+                            var i = res.location[0]
+                            var j = res.location[1]
+                            chess[i][j] = 2
+                            wincolor = checkWin()
+                            context.drawImage(img_w,j*36-15,i*36-15)
+                            turn = !turn
+                            if(wincolor==0){
+                                information.innerHTML = "PEACE"
+                                isEnd = true
+                                return
+                            }else if(wincolor == 1){
+                                information.innerHTML = "BLACK WIN!"
+                                isEnd = true
+                                return
+                            }else if(wincolor == 2){
+                                information.innerHTML = "WHITE WIN!"
+                                isEnd = true
+                                return
+                            }
+                            
+                        }
+
+                    }catch(err){
+                        alert("Server has something worng！You can check the console!")
+                    }
+                }
+                ai_put("five/ai",deal_with)
+            }
+
+        }
+
+        //get the answer of AI from server side. 
+        var ai_put = function(hostname,func){
+            var data = {
+            "ai_color":2,
+            "data":JSON.stringify(chess)
+            }
+            $.post(hostname,data,function(respond,status){
+            func(respond);
+        })
+        }
+	</script>
+</html>
