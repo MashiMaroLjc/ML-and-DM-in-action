@@ -33,13 +33,11 @@ I wrote a article about it to Segmentfault,but I wrote it in chinese.
 
 ###BetaMeow
 
-I create BetaMeow,which will play **gobang game** with you,
-after I know about the match between AlphaGo and Lee se-dol.It is different from the traditional
-gobang game AI.It make a decision by decision tree instead of search algorithms what the traditional
+I create BetaMeow,which can play **gobang game** with you 
+after learning about the interesting match between AlphaGo and Lee se-dol. Comparing with the previous version,the current version has a great difference from the traditional gobang game AI. It makes a decision by Decision tree instead of search algorithms that the traditional
 gobang game AI did.
 
-BetaMeow can keep studying only you provide data.Of couse,it's not prefect，but I will update it when I have
-idea to improve it.
+BetaMeow can keep studying only if you provide data. Of course, thought it's not so perfect, I will do my best to update it.
 
 ####How To Begin
 
@@ -50,8 +48,7 @@ python ai.py
 ```
 Open your browser and enter ```http://localhost/five``` then you can play with BetaMeow 
 
-Pay attention to your **Port 80 is free**, otherwise you need to change the code.
-
+Please make sure that your**Port 80 is free**, otherwise you need to modify the code.
 
 
 ###Request
@@ -74,8 +71,8 @@ To Be Continue……
 ##Other
 
 The reposiory record the code I write during I learning the machine learnning and data mining.
-I don't provide a complete data file because they usually too big to have enough space to place it.
-But I will provide some example of data
+I won't provide a complete data file because they are generally too large to be stored.
+But I will provide some important examples of data if necessary. 
 
 **If you are interested in it.you can recommend your project about ML or DM and give me your URL.I will 
 write the URL on my README file .At the same time I also hope you can write  URL of this reposiory
