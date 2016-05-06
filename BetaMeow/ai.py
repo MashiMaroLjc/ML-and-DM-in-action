@@ -173,25 +173,30 @@ def answer(ai_color:int,color:str,table):
 	       "DOWN LEFT","DOWN RIGHT")
 	win_answer = None
 	win_w = 0
+	pre_w = 0
 	for i in range(len(table)):
 		for j in range(len(table[i])):
 			if table[i][j] != 0:
 				if table[i][j] != ai_color:
-					record = [-1,""]
+					record = [-1,"",[]]
 					for d in des:
 						vector = build_vector(i, j, table, d,True)
 						assert len(vector) == len(p_labels), \
 							"p_tree %s error,vector is %s" % (d,vector)
 						res = p_tree.decision((vector,p_labels))
 						if res:
-							res = int(res)
-							if res != -1:
-								record[0] = res
+							res = json.loads(res)
+							if res[0] != -1 and res[1] > pre_w:
+								record[0] = res[0]
 								record[1] = d
+								record[2] =vector
+								pre_w = res[1]
+								if res[1] == 5:
+									return get_new_p(i, j, record[1], record[0])
 					if record[0] != -1:
 						new_p = get_new_p(i,j,record[1],record[0])
 						log = open("log.txt", "a")
-						log.write("I prevent it!  I put on %s,%s\n"%(new_p))
+						log.write(str(vector)+"---->I prevent it!  I put on %s,%s\n"%(new_p))
 						log.flush()
 						log.close()
 						return new_p
