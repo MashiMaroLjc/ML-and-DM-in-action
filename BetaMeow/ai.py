@@ -4,6 +4,7 @@ import json
 from flask import request
 from flask import render_template
 import random
+import sys
 
 __author__  = "fatRabit"
 __version__ = 1.6 
@@ -258,5 +259,10 @@ def ai_answer():
 	}
 	return json.dumps(res)
 
+
 if __name__ == "__main__":
-	app.run(port=80)
+	try:
+		port = int(sys.argv[1])
+	except IndexError:
+		port = 80
+	app.run(port=port)
