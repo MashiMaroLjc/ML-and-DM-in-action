@@ -1,4 +1,5 @@
-#ML and DM in action
+ML and DM in action
+====================
 
 [中文](README-chinese.md)
 
@@ -6,12 +7,13 @@
 
  - [Learn-to-identify-similar-images](#Learn-to-identify-similar-images)
  - [BetaMeow](#BetaMeow)
+ - [DouBanMovie](#DouBanMovie)
 
 
 ##Detail
 
 
-###Learn-to-identify-similar-images
+###<span id="Learn-to-identify-similar-images">Learn-to-identify-similar-images</span>
 
 After reading some papers from internet,I implement three algorithms including Average Hash,
 Discrete cosine transform and so on,which about how to identify the similar images,by Python
@@ -31,7 +33,10 @@ I wrote a article about it to Segmentfault,but I wrote it in chinese.
 > [识别相似图片(二)](https://segmentfault.com/a/1190000004500523?_ea=630748)
 
 
-###BetaMeow
+-----
+
+
+###<span id="BetaMeow">BetaMeow</span>
 
 I create BetaMeow,which can play **gobang game** with you 
 after learning about the interesting match between AlphaGo and Lee se-dol. Comparing with the previous version,the current version has a great difference from the traditional gobang game AI. It makes a decision by Decision tree instead of search algorithms that the traditional
@@ -51,10 +56,64 @@ Open your browser and enter ```http://localhost/five``` then you can play with B
 Please make sure that your**Port 80 is free**, otherwise you need to modify the code.
 
 
-###Request
+####Request
 
 - python >= 3.4 
 - flask 0.10.1
+
+
+----
+
+###<span id="DouBanMovie">DouBanMovie</span>
+
+ - The web spider made up of ```spider.py``` and ```douban.py``` baesd on the model named ```requests```.
+    It can collect the information of movie and other video from douban.com，including follow items.
+    
+    - title
+    - runtime
+    - type
+    - director
+    - actor
+    - area
+    - star
+    - one or more comments
+
+ The information will save as JSON format.
+ 
+  You can set the number of information you want to collect.The spider will collect util the queue of mission to be empty
+ when the number is default.Also the spider **support breakpoint collecting**.The file named info.txt will record the information 
+ about the program.**When you continue the process after interruption,this information will be load as configuration.**So,
+ **don't modify it unless you need.**
+
+
+- ```datas.py```is an analysis of the data of the script.At present it can do that.
+  
+  - The relationship between actor and runtime.  
+  - The five actors who has most roles in the good movie or bad movie.You can change the standard to 
+    distinguish between good movie and bad movie by change the code. 
+  - The relationship between area and runtime.
+  - The relationship director actor and runtime.  
+  - The five areas Where is the production of much of the good movie or bad movie.
+  - The five directors who has most roles in the good movie or bad movie.
+  - The five types which has most good movie or bad movie
+  - The relationship between star and runtime. 
+  - Choose five actors in each type，who has most movie in this type,without good or bad.
+
+
+
+- DouBanMovie/data
+  
+ You can find about 500 randomly selected data about the movie.
+
+- DouBanMovie/result
+
+  You can find the result of running the ```datas.py``` based on 500 randomly selected data.
+
+
+####Request
+ - python >= 3.4
+ - requests  2.8.1
+
 
 
 ##To Do List
@@ -62,7 +121,7 @@ Please make sure that your**Port 80 is free**, otherwise you need to modify the 
 - [x] Learn-to-identify-similar-images
 - [x] gobang game AI
 - [ ] Recommend music according to your mood on sina weibo 
-- [ ] Get the data from web site of movie and analyze it
+- [x] Get the data from web site of movie and analyze it
 - [ ] Build a personal  system to recommend movie,based on last point.
 
 To Be Continue……
