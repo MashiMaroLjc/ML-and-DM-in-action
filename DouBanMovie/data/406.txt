@@ -1,0 +1,1 @@
+{"comment_list": ["\u6709\u4e00\u70b9\u65b0\u610f", "\u65e0\u804a\uff01", "", ""], "writer": "", "director": "Eric England", "date": "2013", "runtime": "", "area": "\u7f8e\u56fd", "title": "\u6050\u60e7\u5e7b\u5f71 Chilling Visions: 5 Senses of Fear", "type": "\u6050\u6016", "actor": "\u5c3c\u53e4\u62c9\u65af\u00b7\u56fe\u9f50/Boris Tsymba/Caleb Barwick", "star": "6.2"}

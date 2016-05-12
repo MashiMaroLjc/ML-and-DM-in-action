@@ -1,0 +1,1 @@
+{"director": "\u5218\u4fe1\u4e49", "title": "\u5927\u5200\u5173\u80dc", "runtime": "89\u5206\u949f", "type": "\u5267\u60c5", "writer": "\u6e38\u52b1\u52e4", "star": "4.6", "date": "2013-08-01", "area": "\u4e2d\u56fd\u5927\u9646", "actor": "\u90a3\u5bb6\u5a01/\u8521\u8776/\u9648\u5e1d\u6587/\u8bb8\u660e\u864e", "comment_list": ["\u997f", "", "", "\u4e0d\u9519\u7684"]}

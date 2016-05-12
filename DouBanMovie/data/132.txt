@@ -1,0 +1,1 @@
+{"star": "3.6", "actor": "Katrina Law/Lili Bord\u00e1n/Jody Quigley", "runtime": "95\u5206\u949f", "writer": "", "director": "Quinn Saunders", "title": "\u5e7d\u7075 apparition", "date": "", "comment_list": ["\u70c2\u7247", "\u88ab\u4e3b\u89d2\u5413\u5230", "\u4ec0\u4e48\u9b3c", "\u70c2\u5267\u60c5\uff0c\u70c2\u4e3b\u89d2\uff01"], "area": "\u7f8e\u56fd", "type": "\u6050\u6016"}
