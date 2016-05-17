@@ -109,12 +109,6 @@ Please make sure that your**Port 80 is free**, otherwise you need to modify the 
 
   You can find the result of running the ```datas.py``` based on 500 randomly selected data.
 
-- recommend.py
-
-  Implements an simple algorithm，,which recommend goods based on some labels
-that customer love recently.It is suitable for a small number of users and 
-individual users.Also,the code is very easy reading and understanding.
-
 
 ####Request
  - python >= 3.4
@@ -128,7 +122,7 @@ individual users.Also,the code is very easy reading and understanding.
 - [x] gobang game AI
 - [ ] Recommend music according to your mood on sina weibo 
 - [x] Get the data from web site of movie and analyze it
-- [x] Build a personal  system to recommend movie,based on last point.
+- [ ] Build a personal  system to recommend movie,based on last point.
 - [ ] My web spider**s**
 
 To Be Continue……
