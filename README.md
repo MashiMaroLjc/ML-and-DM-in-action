@@ -5,9 +5,9 @@ ML and DM in action
 
 ##Directory
 
- - [Learn-to-identify-similar-images](#Learn-to-identify-similar-images)
- - [BetaMeow](#BetaMeow)
- - [DouBanMovie](#DouBanMovie)
+ - [Learn-to-identify-similar-images](#user-content-Learn-to-identify-similar-images)
+ - [BetaMeow](#user-content-betameow)
+ - [DouBanMovie](#user-content-doubanmovie)
 
 
 ##Detail
@@ -116,6 +116,18 @@ Please make sure that your**Port 80 is free**, otherwise you need to modify the 
 that customer love recently.It is suitable for a small number of users and 
 individual users.Also,the code is very easy reading and understanding.
 
+- api.py
+
+  This is a web api based on ```flask``` and ```recommend.py```.Using it,you can do following things
+   
+   - /recommend/get  
+      
+   Get the information about recommend movie with JSON format.
+
+   - /recommend/put?moviename=anyname&comment=good
+   
+   Let the system know Which movie you choose and your comment,like good or bad.
+   Then system will update the model.
 
 
 ####Request

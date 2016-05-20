@@ -3,15 +3,15 @@
 
 ##目录
 
- - [相似图像判别](#相似图像判别)
- - [BetaMeow](#BetaMeow)
- - [豆瓣电影](#豆瓣电影)
+ - [相似图像判别](#user-content-Learn-to-identify-similar-images)
+ - [BetaMeow](#user-content-betameow)
+ - [豆瓣电影](#user-content-doubanmovie)
 
 
 ##具体内容 
 
 
-###<span id="Learn-to-identify-similar-images">相似图片识别</span>
+<h3 id="Learn-to-identify-similar-images">相似图片识别</h3>
 
 参考论文后，利用```python3.4```，```Pillow```,```OpenCV```利用平均哈希算法，
 感知哈希算法(离散余弦变换)等算法，实现**相似图片识别**。
@@ -31,7 +31,7 @@
 -----
 
 
-###<span id="BetaMeow">BetaMeow</span>
+<h3 id="betameow">BetaMeow</h3>
 
 BetaMeow(五子棋AI)是我在AlphaGo大战李世石后一时兴起弄出来的，经过几次版本的迭代，当前版本有别于传统的五子棋ai。
 传统的五子棋采用了搜索算法实现，而**BetaMeow是采用决策树算法实现**，通过人工提供数据，可以进行学习。
@@ -57,7 +57,7 @@ python ai.py
 
 -----
 
-###<span id="DouBanMovie">豆瓣电影</span>
+<h3 id="doubanmovie">豆瓣电影</h3>
 
  -  ```spider.py``` + ```douban.py```是利用```requests```模块写的网络爬虫，能够爬取豆瓣的电影和电视剧等信息，**爬取
 的信息存储为JSON格式，存储目录可自由指定**，数据包括：
@@ -102,6 +102,17 @@ python ai.py
 适合少用户/个人使用，代码简单清晰易读。
 
 
+- api.py
+
+  利用```flask```框架，结合```recommend.py```做得一个```WEB API```,你可以做到以事情
+   
+   - /recommend/get 
+
+   获取json格式的电影推荐信息
+
+   - /recommend/put?moviename=anyname&comment=good 
+
+   提供电影名字或评分```good```/```bad```来使推荐系统学习，更新模型。
 
 ####Request
  - python >= 3.4
