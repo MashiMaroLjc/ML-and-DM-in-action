@@ -8,7 +8,7 @@ ML and DM in action
  - [Learn-to-identify-similar-images](#user-content-Learn-to-identify-similar-images)
  - [BetaMeow](#user-content-betameow)
  - [DouBanMovie](#user-content-doubanmovie)
-
+ - [my-ml-package](#user-content-ml)
 
 ##Detail
 
@@ -134,7 +134,14 @@ individual users.Also,the code is very easy reading and understanding.
  - python >= 3.4
  - requests  2.8.1
 
+------
 
+<h3 id="ml">My-ML-algorithm-package</h3>
+
+click the link for deatil.
+ 
+[My-ML-algorithm-package](ml) 
+ 
 
 ##To Do List
 
@@ -144,7 +151,7 @@ individual users.Also,the code is very easy reading and understanding.
 - [x] Get the data from web site of movie and analyze it
 - [x] Build a personal  system to recommend movie,based on last point.
 - [ ] My web spider**s**
-- [ ] A basic ML algorithm package
+- [x] A basic ML algorithm package
 
 To Be Continue……
 

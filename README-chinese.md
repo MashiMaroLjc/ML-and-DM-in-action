@@ -6,7 +6,7 @@
  - [相似图像判别](#user-content-Learn-to-identify-similar-images)
  - [BetaMeow](#user-content-betameow)
  - [豆瓣电影](#user-content-doubanmovie)
-
+ - [我的算法包](#user-content-ml)
 
 ##具体内容 
 
@@ -118,6 +118,15 @@ python ai.py
  - python >= 3.4
  - requests  2.8.1
 
+ 
+------
+ 
+<h3 id="ml">我的算法包</h3>
+
+点击一下连接查看详细内容 
+ 
+[我的算法包](ml) 
+ 
 ##To Do List
 
 - [x] 相似图片判别
@@ -126,7 +135,7 @@ python ai.py
 - [x] 某网站电影信息分析
 - [x] 基于上一点，做一个私人电影推荐系统
 - [ ] 自己的爬虫包，封装爬取各大网站的爬虫
-- [ ] 自己的机器学习算法包
+- [x] 自己的机器学习算法包
 
 未完待续……
 
