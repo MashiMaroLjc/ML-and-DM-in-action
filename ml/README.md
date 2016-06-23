@@ -6,7 +6,7 @@
 - [ ] Logistic
 - [ ] Perceptron
 - [ ] SVM
-- [ ] Decision Tree
+- [x] Decision Tree
 - [ ] K-Mean
 - [ ] Apriori
 - [ ] FP-Tree
