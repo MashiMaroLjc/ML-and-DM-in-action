@@ -5,7 +5,7 @@
 - [ ] Bayes
 - [ ] Logistic
 - [ ] Perceptron
-- [ ] SVM
+- [x] SVM
 - [x] Decision Tree
 - [ ] K-Mean
 - [ ] Apriori
