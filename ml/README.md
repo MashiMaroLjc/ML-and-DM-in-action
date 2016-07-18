@@ -3,7 +3,7 @@
 - [x] KNN
 - [ ] AdaBoost
 - [x] Bayes
-- [ ] Logistic
+- [x] Logistic
 - [ ] Perceptron
 - [x] SVM
 - [x] Decision Tree
