@@ -1,7 +1,7 @@
 ##To Do List
 
 - [x] KNN
-- [ ] AdaBoost
+- [x] AdaBoost
 - [x] Bayes
 - [x] Logistic
 - [ ] Perceptron
