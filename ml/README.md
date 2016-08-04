@@ -4,7 +4,7 @@
 - [x] AdaBoost
 - [x] Bayes
 - [x] Logistic
-- [ ] Perceptron
+- [x] Perceptron
 - [x] SVM
 - [x] Decision Tree
 - [ ] K-Mean
