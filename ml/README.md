@@ -7,7 +7,7 @@
 - [x] Perceptron
 - [x] SVM
 - [x] Decision Tree
-- [ ] K-Mean
+- [x] K-Mean
 - [ ] Apriori
 - [ ] FP-Tree
 - [ ] Ridge Regression
