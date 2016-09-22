@@ -8,7 +8,7 @@
 - [x] SVM
 - [x] Decision Tree
 - [x] K-Mean
-- [ ] Apriori
+- [x] Apriori
 - [ ] FP-Tree
 - [ ] Ridge Regression
 - [ ] Model Tree Regression
