@@ -9,6 +9,7 @@ ML and DM in action
  - [BetaMeow](#user-content-betameow)
  - [DouBanMovie](#user-content-doubanmovie)
  - [my-ml-package](#user-content-ml)
+ - [dudulu](#user-content-dudulu)
 
 ##Detail
 
@@ -143,11 +144,18 @@ click the link for deatil.
 [My-ML-algorithm-package](ml) 
  
 
+------
+
+<h3 id="dudulu">dudulu</h3>
+API server of text mining
+[dudulu](https://github.com/MashiMaroLjc/dudulu)
+
 ##To Do List
 
 - [x] Learn-to-identify-similar-images
 - [x] gobang game AI
-- [ ] Recommend music according to your mood on sina weibo 
+- [ ] ~~Recommend music according to your mood on sina weibo~~ 
+- [x] APIs of text mining
 - [x] Get the data from web site of movie and analyze it
 - [x] Build a personal  system to recommend movie,based on last point.
 - [ ] My web spider**s**
