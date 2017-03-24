@@ -157,8 +157,8 @@
         var information = document.getElementById("info")
         var put = function(event){
             if(isEnd) return
-            var x = parseInt((event.screenX) / 36)-6; 
-            var y= parseInt((event.screenY ) / 36)-2;  
+            var x = parseInt((event.clientX) / 36)-6; 
+            var y= parseInt((event.clientX ) / 36)-2;  
             if(chess[y][x] == 0 && turn ){
                 context.drawImage(img_b, x*36-15 , y*36-15 );
                 turn = !turn

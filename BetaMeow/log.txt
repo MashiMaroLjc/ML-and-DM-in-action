@@ -1,0 +1,19 @@
+I don't know where I should put! But I still put on 2,16
+Maybe I will win!  I put on 2,15
+Maybe I will win!  I put on 2,14
+Maybe I will win!  I put on 2,17
+I don't know where I should put! But I still put on 1,11
+Maybe I will win!  I put on 1,10
+Maybe I will win!  I put on 1,12
+[1, 0, 0, 0]---->I prevent it!  I put on 4,11
+[1, -1, 0, 0]---->I prevent it!  I put on 3,13
+[1, 0, 0, 0]---->I prevent it!  I put on 3,9
+[1, 0, 0, 0]---->I prevent it!  I put on 0,15
+Maybe I will win!  I put on 2,12
+Maybe I will win!  I put on 0,16
+Maybe I will win!  I put on 0,17
+I don't know where I should put! But I still put on 11,15
+Maybe I will win!  I put on 11,14
+[1, 0, 1, 0]---->I prevent it!  I put on 12,8
+[1, -1, 0, 0]---->I prevent it!  I put on 8,4
+Maybe I will win!  I put on 11,16
