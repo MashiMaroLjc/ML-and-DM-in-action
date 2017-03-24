@@ -8,6 +8,7 @@
  - [豆瓣电影](#user-content-doubanmovie)
  - [我的算法包](#user-content-ml)
  - [dudulu](#user-content-dudulu)
+ - [五言律诗生成](#user-poem)
 
 ##具体内容 
 
@@ -132,16 +133,10 @@ python ai.py
 文本挖掘的api server
 [dudulu](https://github.com/MashiMaroLjc/dudulu)
 
-##To Do List
+-------
+<h3 id="poem">poem</h3>
+五言律诗的生成器，只是使用了基本的规则和概率统计
 
-- [x] 相似图片判别
-- [x] 五子棋
-- [ ] ~~根据你在新浪微博上的动态情绪推荐音乐~~
-- [x] 文本挖掘的api server
-- [x] 某网站电影信息分析
-- [x] 基于上一点，做一个私人电影推荐系统
-- [ ] 自己的爬虫包，封装爬取各大网站的爬虫
-- [x] 自己的机器学习算法包
 
 未完待续……
 

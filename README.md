@@ -10,6 +10,7 @@ ML and DM in action
  - [DouBanMovie](#user-content-doubanmovie)
  - [my-ml-package](#user-content-ml)
  - [dudulu](#user-content-dudulu)
+ - [chinese-poem](#user-poem)
 
 ##Detail
 
@@ -150,16 +151,13 @@ click the link for deatil.
 API server of text mining
 [dudulu](https://github.com/MashiMaroLjc/dudulu)
 
-##To Do List
 
-- [x] Learn-to-identify-similar-images
-- [x] gobang game AI
-- [ ] ~~Recommend music according to your mood on sina weibo~~ 
-- [x] APIs of text mining
-- [x] Get the data from web site of movie and analyze it
-- [x] Build a personal  system to recommend movie,based on last point.
-- [ ] My web spider**s**
-- [x] A basic ML algorithm package
+-------
+<h3 id="poem">poem</h3>
+a chinese poem generator using base rule and probability
+
+
+
 
 To Be Continue……
 
