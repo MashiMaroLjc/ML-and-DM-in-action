@@ -1,3 +1,4 @@
+# -*- coding:utf-8 -*-  
 from flask import Flask
 from decision_tree import DecisionTree
 import json
@@ -196,10 +197,7 @@ def answer(ai_color:int,color:str,table):
 									return get_new_p(i, j, record[1], record[0])
 					if record[0] != -1:
 						new_p = get_new_p(i,j,record[1],record[0])
-						log = open("log.txt", "a")
-						log.write(str(vector)+"---->I prevent it!  I put on %s,%s\n"%(new_p))
-						log.flush()
-						log.close()
+						log_info(str(vector)+"---->I prevent it!  I put on %s,%s\n"%(new_p))
 						return new_p
 				else:
 					w_record = [-1, ""]
@@ -216,27 +214,26 @@ def answer(ai_color:int,color:str,table):
 								if res[1] == 5:
 									return get_new_p(i, j, w_record[1], w_record[0])
 								win_w = res[1]
-
+					#这时才进行决策？
 					if w_record[0] != -1:
 						win_answer = get_new_p(i, j, w_record[1], w_record[0])
 
 	if win_answer:
-		log = open("log.txt", "a")
-		log.write("Maybe I will win!  I put on %s,%s\n"%(win_answer))
-		log.flush()
-		log.close()
+		log_info("Maybe I will win!  I put on %s,%s\n"%(win_answer))
 		return win_answer
-	i = random.randrange(0,18,1)
-	j = random.randrange(0,18,1)
+	i = random.randrange(0,15,1)
+	j = random.randrange(0,15,1)
 	while table[i][j] !=0:
-		i = random.randrange(0, 18, 1)
-		j = random.randrange(0, 18, 1)
-	log = open("log.txt", "a")
-	log.write("I don't know where I should put! But I still put on %s,%s\n"%(i,j))
-	log.flush()
-	log.close()
+		i = random.randrange(0, 15, 1)
+		j = random.randrange(0, 15, 1)
+	log_info("I don't know where I should put! But I still put on %s,%s\n"%(i,j))
 	return i,j
 
+def log_info(message):
+	log = open("log.txt", "a")
+	log.write("cxm:" + message)
+	log.flush()
+	log.close()
 
 #Return the coordinates of place where AI want to put chess to client.
 @app.route("/five/ai",methods=["POST"])
@@ -258,11 +255,20 @@ def ai_answer():
 		"location":[i,j]
 	}
 	return json.dumps(res)
-
+def main():
+	ai_color = "2"
+	color = "WHITE"
+	table = []
+	with open("./data.json") as f:
+		table = json.loads(f.read())
+	i,j = answer(ai_color,color,table)
+	print("x:", i," y:", j)
 
 if __name__ == "__main__":
 	try:
 		port = int(sys.argv[1])
 	except IndexError:
 		port = 80
-	app.run(port=port)
+	#app.run(port=port)
+	main()
+
