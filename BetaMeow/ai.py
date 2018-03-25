@@ -255,20 +255,11 @@ def ai_answer():
 		"location":[i,j]
 	}
 	return json.dumps(res)
-def main():
-	ai_color = "2"
-	color = "WHITE"
-	table = []
-	with open("./data.json") as f:
-		table = json.loads(f.read())
-	i,j = answer(ai_color,color,table)
-	print("x:", i," y:", j)
 
 if __name__ == "__main__":
 	try:
 		port = int(sys.argv[1])
 	except IndexError:
 		port = 80
-	#app.run(port=port)
-	main()
+	app.run(port=port)
 
