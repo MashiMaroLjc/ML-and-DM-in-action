@@ -17,3 +17,166 @@ Maybe I will win!  I put on 11,14
 [1, 0, 1, 0]---->I prevent it!  I put on 12,8
 [1, -1, 0, 0]---->I prevent it!  I put on 8,4
 Maybe I will win!  I put on 11,16
+I don't know where I should put! But I still put on 6,3
+Maybe I will win!  I put on 6,2
+I don't know where I should put! But I still put on 8,3
+Maybe I will win!  I put on 8,2
+I don't know where I should put! But I still put on 8,15
+I don't know where I should put! But I still put on 1,12
+Maybe I will win!  I put on 1,11
+Maybe I will win!  I put on 1,13
+[1, 0, 1, 0]---->I prevent it!  I put on 13,9
+Maybe I will win!  I put on 1,14
+I don't know where I should put! But I still put on 8,15
+[1, 0, 0, 1]---->I prevent it!  I put on 11,7
+Maybe I will win!  I put on 8,14
+I don't know where I should put! But I still put on 0,2
+I don't know where I should put! But I still put on 2,7
+I don't know where I should put! But I still put on 8,7
+I don't know where I should put! But I still put on 13,4
+I don't know where I should put! But I still put on 5,1
+I don't know where I should put! But I still put on 9,0
+I don't know where I should put! But I still put on 7,1
+I don't know where I should put! But I still put on 2,5
+I don't know where I should put! But I still put on 2,0
+I don't know where I should put! But I still put on 11,4
+[1, 0, 0, 0]---->I prevent it!  I put on 8,6
+[1, 0, 0, 0]---->I prevent it!  I put on 4,6
+Maybe I will win!  I put on 4,5
+I don't know where I should put! But I still put on 13,0
+[1, 0, 0, 0]---->I prevent it!  I put on 7,10
+[1, 0, 0, 0]---->I prevent it!  I put on 7,6
+I don't know where I should put! But I still put on 10,5
+Maybe I will win!  I put on 5,9
+Maybe I will win!  I put on 5,9
+Maybe I will win!  I put on 5,9
+I don't know where I should put! But I still put on 9,11
+Maybe I will win!  I put on 11,8
+[1, 0, 0, 0]---->I prevent it!  I put on 10,7
+[1, 1, 0, 0]---->I prevent it!  I put on 10,7
+[1, 1, 0, 0]---->I prevent it!  I put on 10,7
+[1, 1, 0, 0]---->I prevent it!  I put on 10,7
+[1, 0, 0, 0]---->I prevent it!  I put on 5,2
+[1, 1, -1, 0]---->I prevent it!  I put on 5,2
+I don't know where I should put! But I still put on 5,13
+[1, 0, 0, 0]---->I prevent it!  I put on 5,9
+[1, 0, 0, 0]---->I prevent it!  I put on 5,9
+[1, 0, 0, 0]---->I prevent it!  I put on 5,9
+[1, 0, 0, 0]---->I prevent it!  I put on 5,9
+[1, 0, 0, 0]---->I prevent it!  I put on 5,9
+[1, 0, 0, 0]---->I prevent it!  I put on 5,9
+[1, 0, 0, 0]---->I prevent it!  I put on 5,9
+[1, 0, 0, 0]---->I prevent it!  I put on 5,9
+[1, 0, 0, 0]---->I prevent it!  I put on 5,9
+I don't know where I should put! But I still put on 6,11
+Maybe I will win!  I put on 11,5
+[1, 0, 1, 0]---->I prevent it!  I put on 8,9
+[1, 0, 1, 0]---->I prevent it!  I put on 8,9
+[1, 0, 1, 0]---->I prevent it!  I put on 5,9
+[1, 0, 1, 0]---->I prevent it!  I put on 5,9
+[1, 0, 0, 0]---->I prevent it!  I put on 6,5
+[1, 0, 0, 0]---->I prevent it!  I put on 3,9
+[1, 1, 0, 0]---->I prevent it!  I put on 3,9
+I don't know where I should put! But I still put on 3,6
+Maybe I will win!  I put on 6,2
+Maybe I will win!  I put on 2,5
+Maybe I will win!  I put on 7,4
+Maybe I will win!  I put on 7,4
+Maybe I will win!  I put on 7,4
+I don't know where I should put! But I still put on 9,2
+Maybe I will win!  I put on 2,8
+[1, 1, 0, 0]---->I prevent it!  I put on 10,7
+[1, 1, 0, 0]---->I prevent it!  I put on 10,7
+[1, 1, 1, -1]---->I prevent it!  I put on 10,7
+[1, 1, 1, -1]---->I prevent it!  I put on 10,7
+[1, 1, 1, -1]---->I prevent it!  I put on 10,7
+[1, 1, 1, -1]---->I prevent it!  I put on 10,7
+I don't know where I should put! But I still put on 7,6
+I don't know where I should put! But I still put on 13,6
+I don't know where I should put! But I still put on 5,4
+I don't know where I should put! But I still put on 8,2
+I don't know where I should put! But I still put on 1,7
+I don't know where I should put! But I still put on 2,4
+I don't know where I should put! But I still put on 2,1
+I don't know where I should put! But I still put on 14,7
+cxm:I don't know where I should put! But I still put on 0,2
+cxm:I don't know where I should put! But I still put on 14,5
+cxm:Maybe I will win!  I put on 5,13
+cxm:Maybe I will win!  I put on 5,13
+cxm:Maybe I will win!  I put on 5,13
+cxm:Maybe I will win!  I put on 5,13
+cxm:[1, 0, 0, 0]---->I prevent it!  I put on 9,7
+cxm:[1, 0, 0, 0]---->I prevent it!  I put on 9,7
+cxm:[1, 0, 0, 0]---->I prevent it!  I put on 11,9
+cxm:[1, 1, 0, 0]---->I prevent it!  I put on 10,7
+cxm:[1, 1, 0, 0]---->I prevent it!  I put on 10,7
+cxm:[1, 1, 0, 0]---->I prevent it!  I put on 10,7
+cxm:[1, 1, 0, 0]---->I prevent it!  I put on 10,7
+cxm:I don't know where I should put! But I still put on 2,9
+cxm:Maybe I will win!  I put on 8,2
+cxm:Maybe I will win!  I put on 2,7
+cxm:[1, 0, 1, 0]---->I prevent it!  I put on 5,6
+cxm:[1, 0, 1, 0]---->I prevent it!  I put on 5,6
+cxm:[1, 0, 1, 0]---->I prevent it!  I put on 5,6
+cxm:[1, 0, 1, 0]---->I prevent it!  I put on 5,6
+cxm:[1, 0, 1, 0]---->I prevent it!  I put on 5,6
+cxm:[1, 0, 1, 0]---->I prevent it!  I put on 5,6
+cxm:[1, 0, 1, 0]---->I prevent it!  I put on 5,6
+cxm:[1, 0, 1, 0]---->I prevent it!  I put on 5,6
+cxm:[1, 0, 1, 0]---->I prevent it!  I put on 5,6
+cxm:I don't know where I should put! But I still put on 13,13
+cxm:Maybe I will win!  I put on 13,12
+cxm:Maybe I will win!  I put on 11,13
+cxm:Maybe I will win!  I put on 13,12
+cxm:[1, 0, 0, 1]---->I prevent it!  I put on 6,7
+cxm:[1, 0, 0, 1]---->I prevent it!  I put on 6,7
+cxm:[1, 0, 0, 1]---->I prevent it!  I put on 6,7
+cxm:I don't know where I should put! But I still put on 2,3
+cxm:Maybe I will win!  I put on 3,3
+cxm:Maybe I will win!  I put on 3,4
+cxm:I don't know where I should put! But I still put on 10,14
+cxm:Maybe I will win!  I put on 10,13
+cxm:Maybe I will win!  I put on 10,12
+cxm:[1, 0, 0, -1]---->I prevent it!  I put on 9,11
+cxm:[1, 1, 0, 0]---->I prevent it!  I put on 6,9
+cxm:[1, 0, 1, 0]---->I prevent it!  I put on 8,12
+cxm:I don't know where I should put! But I still put on 14,13
+cxm:Maybe I will win!  I put on 14,12
+cxm:[1, 0, 1, 0]---->I prevent it!  I put on 10,10
+cxm:I don't know where I should put! But I still put on 9,7
+cxm:Maybe I will win!  I put on 9,6
+cxm:Maybe I will win!  I put on 9,8
+cxm:[1, 1, 1, 1]---->I prevent it!  I put on 6,9
+cxm:[1, 1, 0, 0]---->I prevent it!  I put on 6,5
+cxm:I don't know where I should put! But I still put on 7,9
+cxm:Maybe I will win!  I put on 7,8
+cxm:[1, 0, -1, 0]---->I prevent it!  I put on 8,7
+cxm:[1, -1, 0, 0]---->I prevent it!  I put on 0,7
+cxm:Maybe I will win!  I put on 1,7
+cxm:I don't know where I should put! But I still put on 5,8
+cxm:Maybe I will win!  I put on 5,7
+cxm:Maybe I will win!  I put on 5,9
+cxm:Maybe I will win!  I put on 5,6
+cxm:[1, 0, 1, 0]---->I prevent it!  I put on 8,8
+cxm:[1, 0, 0, 0]---->I prevent it!  I put on 9,9
+cxm:[1, 0, 0, 0]---->I prevent it!  I put on 7,10
+cxm:[1, 0, 1, 0]---->I prevent it!  I put on 9,11
+cxm:[1, -1, -1, 0]---->I prevent it!  I put on 4,4
+cxm:Maybe I will win!  I put on 4,8
+cxm:I don't know where I should put! But I still put on 3,13
+cxm:Maybe I will win!  I put on 3,12
+cxm:[1, 0, 0, 0]---->I prevent it!  I put on 6,11
+cxm:I don't know where I should put! But I still put on 2,11
+cxm:Maybe I will win!  I put on 2,10
+cxm:[1, 0, 1, 0]---->I prevent it!  I put on 6,6
+cxm:[1, 0, 1, 0]---->I prevent it!  I put on 7,6
+cxm:[1, 0, 0, 0]---->I prevent it!  I put on 4,7
+cxm:[1, -1, -1, 1]---->I prevent it!  I put on 0,5
+cxm:[1, 1, 1, 1]---->I prevent it!  I put on 0,1
+cxm:I don't know where I should put! But I still put on 5,9
+cxm:Maybe I will win!  I put on 5,8
+cxm:Maybe I will win!  I put on 5,10
+cxm:Maybe I will win!  I put on 5,7
+cxm:I don't know where I should put! But I still put on 13,0
+cxm:Maybe I will win!  I put on 13,1
+cxm:Maybe I will win!  I put on 13,2
